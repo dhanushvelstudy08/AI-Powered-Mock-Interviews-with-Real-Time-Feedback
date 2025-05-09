@@ -1,5 +1,4 @@
 from google.adk.agents import LlmAgent
-from google.adk.tools import google_search
 
 first_round = LlmAgent(
     model="gemini-2.0-flash-001",
